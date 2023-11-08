@@ -1,0 +1,8 @@
+{
+  "name": "ServicesLearning",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "bebbbc68"
+}
