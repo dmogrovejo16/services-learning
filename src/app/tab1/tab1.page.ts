@@ -27,7 +27,7 @@ export class Tab1Page {
     {
       type: 'textarea',
       placeholder: 'Descripcion',
-    },
+    },]
   constructor() {}
 
 }
