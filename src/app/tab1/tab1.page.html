@@ -20,63 +20,96 @@
     </header>
   </ion-toolbar>
   </ion-header>
-  <body>
-      <main class="main">
+
+  <ion-content>
+
   
       <section class="cards">
+
+        
       
         <button class="btn1" routerLink="/tabs/tab3">
-        <article class="card card--football">
-          <img src="https://cdn-icons-png.flaticon.com/512/2817/2817952.png" alt="Fútbol" class="card__img">
-          <h2 class="card__title">Fútbol</h2>
-        <button  id="add" style="border-radius: 100%; z-index: 2; width: 3rem; height: 3rem;">  <img style="z-index: 1;" src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/512/sign-add-icon.png" alt="Icono" class="card__icon">
-        </button>
-        <ion-alert
-  trigger="add"
-  header="Crea un nuevo torneo"
-  [buttons]="alertButtons"
-  [inputs]="alertInputs"
-></ion-alert>
-        </article>
-      </button>
-      <button id="non" class="btn5">
-        <article class="card card--volleyball">
-          <img src="https://cdn-icons-png.flaticon.com/512/2761/2761875.png" alt="Voleibol" class="card__img">
-          <h2 class="card__title">Vóley</h2>
-          <button id="adde" style="border-radius: 100%; z-index: 2; width: 3rem; height: 3rem;">   <img style="z-index: 1;" src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/512/sign-add-icon.png" alt="Icono" class="card__icon">
+          <ion-card color="success" class="card">
+            <img alt="Silhouette of mountains" src="https://i.pinimg.com/originals/f5/5d/8e/f55d8e6cf5378cfa230ac91a0aaead3d.jpg" class="card__img" />
+            <ion-card-header>
+              <ion-card-title>Futbol</ion-card-title>
+              <ion-card-subtitle><ion-fab horizontal="start">
+                <ion-fab-button>
+                  <ion-icon name="add"></ion-icon>
+                </ion-fab-button>
+              </ion-fab>
+              <ion-alert
+              trigger="add"
+              header="Crea un nuevo torneo"
+              [buttons]="alertButtons"
+              [inputs]="alertInputs"
+            ></ion-alert>
+          </ion-card-subtitle>
+            </ion-card-header>
           
-          </button>
-          <ion-alert
-  trigger="adde"
-  header="Crea un nuevo torneo"
-  [buttons]="alertButtons"
-  [inputs]="alertInputs"
-></ion-alert>
-          </article>
+            <ion-card-content>
+              
+           
+            </ion-card-content>
+          </ion-card>
+        
+      
       </button>
+      
 
-      <ion-alert
-
-></ion-alert>
-
-      <button  id="none" class="btn5">
-        <article style="z-index: -3;" class="card card--basketball">
-          <img src="https://cdn-icons-png.flaticon.com/512/1645/1645768.png" alt="Básquetbol" class="card__img">
-          <h2 class="card__title">Básquetbol</h2>
-          <button id="added" style="border-radius: 100%; z-index: 2; width: 3rem; height: 3rem;">  <img  style="z-index: 1;" src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/512/sign-add-icon.png" alt="Icono" class="card__icon">
-          </button>
+ 
+      <button class="btn1">
+        <ion-card color="warning" class="card">
+          <img alt="Silhouette of mountains" src="https://png.pngtree.com/background/20220725/original/pngtree-digital-background-basketball-aesthetic-artistic-picture-image_1782961.jpg" class="card__img" />
+          <ion-card-header>
+            <ion-card-title>Basquetball</ion-card-title>
+            <ion-card-subtitle><ion-fab horizontal="start">
+              <ion-fab-button>
+                <ion-icon name="add"></ion-icon>
+              </ion-fab-button>
+            </ion-fab>
+            <ion-alert
+            trigger="add"
+            header="Crea un nuevo torneo"
+            [buttons]="alertButtons"
+            [inputs]="alertInputs"
+          ></ion-alert>
+        </ion-card-subtitle>
+          </ion-card-header>
+        
+         
+          <ion-card-content>
+          </ion-card-content>
+        </ion-card>
+      
+    
+    </button>
+    <button class="btn1" >
+      <ion-card color="danger" class="card">
+        <img alt="Silhouette of mountains" src="https://previews.123rf.com/images/toricheks2016/toricheks20162003/toricheks2016200300345/142744344-women-volleyball-competitions-in-minimalist-style-cartoon-flat-raster-illustration.jpg" class="card__img" />
+        <ion-card-header>
+          <ion-card-title>VolleyBall</ion-card-title>
+          <ion-card-subtitle><ion-fab horizontal="start">
+            <ion-fab-button>
+              <ion-icon name="add"></ion-icon>
+            </ion-fab-button>
+          </ion-fab>
           <ion-alert
-  trigger="added"
-  header="Crea un nuevo torneo"
-  [buttons]="alertButtons"
-  [inputs]="alertInputs"
-></ion-alert>
-          </article>
-      </button>
-
-      <ion-alert
-
-></ion-alert>
+          trigger="add"
+          header="Crea un nuevo torneo"
+          [buttons]="alertButtons"
+          [inputs]="alertInputs"
+        ></ion-alert>
+      </ion-card-subtitle>
+        </ion-card-header>
+      
+       
+        <ion-card-content>
+        </ion-card-content>
+      </ion-card>
+    
+  
+  </button>
 
       </section>
   
@@ -90,7 +123,8 @@
   
   
   
-    </main>
+
   
-  </body>
+ 
+</ion-content>
   

@@ -72,8 +72,8 @@
   }
   
   .card__img {
-    width: 70px;
-    height: 70px;
+    width: 15rem;
+
     object-fit: contain;
   }
   
@@ -116,10 +116,17 @@
   }
 
 
-
+.card{
+  height: 25rem;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.1rem;
+}
   .btn1{
+    height: 30rem;
     background-color: #00000000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 3rem;
     z-index: 0;
   }
@@ -130,6 +137,10 @@
     z-index: 6;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 3rem;
+  }
+
+  .card__img{
+    width: 20rem;
   }
   
   .user_role{
