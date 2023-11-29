@@ -1,17 +1,96 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+
+
+
+<ion-header >
+  <ion-toolbar >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneos</title>
+  
+  
+  
+  
+    <header class="header">
+     <button routerLink="/tabs/tab2" style="border-radius: 100%; margin-left: 2rem;"> <img src="https://pixlok.com/wp-content/uploads/2022/02/Profile-Icon-SVG-09856789-300x300.png" alt="Logo" class="header__logo">
+     </button>
+      <h1 class="header__title">Torneos</h1>
+      
+      <img src="https://cdn-icons-png.flaticon.com/512/2665/2665430.png" alt="Usuario" class="header__user">
+  
+    </header>
   </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
   </ion-header>
+  <body>
+      <main class="main">
+  
+      <section class="cards">
+      
+        <button class="btn1" routerLink="/tabs/futbol-matches">
+        <article class="card card--football">
+          <img src="https://cdn-icons-png.flaticon.com/512/2817/2817952.png" alt="Fútbol" class="card__img">
+          <h2 class="card__title">Fútbol</h2>
+        <button  id="add" style="border-radius: 100%; z-index: 2; width: 3rem; height: 3rem;">  <img style="z-index: 1;" src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/512/sign-add-icon.png" alt="Icono" class="card__icon">
+        </button>
+        <ion-alert
+  trigger="add"
+  header="Crea un nuevo torneo"
+  [buttons]="alertButtons"
+  [inputs]="alertInputs"
+></ion-alert>
+        </article>
+      </button>
+      <button id="non" class="btn5">
+        <article class="card card--volleyball">
+          <img src="https://cdn-icons-png.flaticon.com/512/2761/2761875.png" alt="Voleibol" class="card__img">
+          <h2 class="card__title">Vóley</h2>
+          <button id="adde" style="border-radius: 100%; z-index: 2; width: 3rem; height: 3rem;">   <img style="z-index: 1;" src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/512/sign-add-icon.png" alt="Icono" class="card__icon">
+          
+          </button>
+          <ion-alert
+  trigger="adde"
+  header="Crea un nuevo torneo"
+  [buttons]="alertButtons"
+  [inputs]="alertInputs"
+></ion-alert>
+          </article>
+      </button>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+      <ion-alert
+
+></ion-alert>
+
+      <button  id="none" class="btn5">
+        <article style="z-index: -3;" class="card card--basketball">
+          <img src="https://cdn-icons-png.flaticon.com/512/1645/1645768.png" alt="Básquetbol" class="card__img">
+          <h2 class="card__title">Básquetbol</h2>
+          <button id="added" style="border-radius: 100%; z-index: 2; width: 3rem; height: 3rem;">  <img  style="z-index: 1;" src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/512/sign-add-icon.png" alt="Icono" class="card__icon">
+          </button>
+          <ion-alert
+  trigger="added"
+  header="Crea un nuevo torneo"
+  [buttons]="alertButtons"
+  [inputs]="alertInputs"
+></ion-alert>
+          </article>
+      </button>
+
+      <ion-alert
+
+></ion-alert>
+
+      </section>
+  
+      <section class="matches">
+        <!-- próximos partidos -->
+      </section>
+      
+      <section class="rankings">
+        <!-- rankings -->
+      </section>
+  
+  
+  
+    </main>
+  
+  </body>
+  

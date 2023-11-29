@@ -1,0 +1,119 @@
+
+
+.frame-1 {
+    background: #98fb98;
+    width: 430px;
+    height: 122px;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    margin-bottom: 0;
+  }
+  .futbol {
+    color: #000000;
+    text-align: left;
+    font: 600 32px "Inter", sans-serif;
+    position: relative;
+    bottom: 2.5rem;
+    left: 9rem;
+    width: 8rem;
+  }
+  .image-1 {
+    width: 4.81rem;
+    height: 4.75rem;
+    position: relative;
+    left: 1rem;
+    top: 1.56rem;
+  }
+  .image-2{
+    width: 3.5rem;
+height: 3.5rem;
+    position: relative;
+    bottom: 5.9rem;
+    left: 19rem;
+  }
+  
+  ion-icon {
+    color: black;
+  }
+
+.back{
+  background-color: #00000000;
+}
+
+.pres{
+  width: 15rem;
+  position: relative;
+}
+
+.frame-13 {
+  background: rgba(202, 196, 190, 0.6);
+  border-radius: 100px;
+  width: 25rem;
+
+height: 6rem;  
+  overflow: hidden;
+  margin-top: 1rem;
+  z-index: -2;
+}
+.partidos{
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    position: absolute;
+    top: 1rem;
+    left: 1.3rem;
+    flex-direction: column;
+    width: 90%;
+}
+._15-03-2023-14-20 {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: relative;
+  bottom: 3rem;
+  left: 10rem;
+}
+.__ {
+  color: #000000;
+  text-align: left;
+  font: 400 30px "Inter", sans-serif;
+  position: relative;
+  width: 4rem;
+  bottom: 3rem;
+  left: 7rem;
+}
+.image-15 {
+    width: 4rem;
+    position: relative;
+    left: 20rem;
+    top: 1rem;
+  }
+  .image-16 {
+    width: 4rem;
+    position: relative;
+    right: 2rem;
+    top: 1rem;
+  }
+._2 {
+  color: #000000;
+  text-align: left;
+  font: 400 30px "Inter", sans-serif;
+  position: relative;
+  
+  left: 18rem;
+  bottom: 5.1rem;;
+  width: 4rem;
+}
+.vs {
+  color: #000000;
+  text-align: left;
+  font: 400 30px "Inter", sans-serif;
+  position: relative;
+  bottom: 3rem;
+  left: 10rem;
+  z-index: 1;
+  width: 4rem;
+}
